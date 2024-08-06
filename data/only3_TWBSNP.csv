@@ -1,0 +1,4 @@
+rsId,Chromosome,Physical Position,Ref Allele,Alt Allele,Minor Allele,Minor Allele Frequency
+rs11363316,16,30159695,T,-,- // CEU /// T // CHB /// T // JPT /// - // YRI,0.4798 // CEU /// 0.1796 // CHB /// 0.1827 // JPT /// 0.3056 // YRI
+rs116488202,6,31377139,C,T,T // CEU /// T // CHB /// T // JPT /// T // YRI,0.0303 // CEU /// 0.0049 // CHB /// 0.0000 // JPT /// 0.0000 // YRI
+rs2066847,16,50729867,-,C,C // CEU /// C // CHB /// C // JPT /// C // YRI,0.0303 // CEU /// 0.0000 // CHB /// 0.0000 // JPT /// 0.0000 // YRI
