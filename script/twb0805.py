@@ -93,3 +93,5 @@ diff_from_TWB2_133['Chromosome'] = diff_from_TWB2_133['Chromosome'].str.replace(
 filtered_TWBSNP.rename(columns={'rsId': 'dbSNP ID', 'Physical Position': 'Position', 'Ref Allele': 'ref allele', 'Alt Allele': 'minor allele (Alternative)', 'Minor Allele': 'minor allele', "Minor Allele Frequency": 'MAF'}, inplace=True)
 
 merged_df = pd.concat([filtered_TWBSNP, diff_from_TWB2_133, filtered_PandaAndWebSNP], ignore_index=True)
+
+merged_df.to_csv('SNP388.csv', index=False)
