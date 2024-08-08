@@ -272,3 +272,6 @@ probe = pd.DataFrame({
     })
 
 
+primer.to_csv('primer.csv', index=False, encoding='utf-8')
+
+probe.to_csv('probe.csv', index=False, encoding='utf-8')
